@@ -1,7 +1,10 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
-import org.testng.Assert;
+import org.junit.Assert;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
 public class CashbackHackerServiceTest {
     @Test
     public void shouldCalculateFrom900() {
