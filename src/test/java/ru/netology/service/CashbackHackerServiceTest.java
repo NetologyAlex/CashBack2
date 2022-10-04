@@ -17,6 +17,10 @@ public class CashbackHackerServiceTest {
         CashbackHackerService service = new CashbackHackerService();
         Assert.assertEquals(service.remain(0), 1000);
     }
-
+    @Test
+    public void shouldCalculateFrom1000() {
+        CashbackHackerService service = new CashbackHackerService();
+        Assert.assertEquals(service.remain(1000), 0);
+    }
 
 }
